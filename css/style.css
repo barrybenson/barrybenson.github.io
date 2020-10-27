@@ -60,6 +60,10 @@ img {
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 strong { font-weight: var(--fw-bold) }
 
 :focus {
@@ -398,10 +402,9 @@ header {
   overflow: hidden;
 }
 
-.portfolio__img {
-  transition:
-    transform 750ms cubic-bezier(.5, 0, .5, 1),
-    opacity 250ms linear;
+.portfolio__title {
+  color: var(--clr-accent);
+  opacity: .5;
 }
 
 .portfolio__item:focus {
@@ -411,7 +414,6 @@ header {
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
-  transform: scale(1.2);
   opacity: .75;
 }
 
