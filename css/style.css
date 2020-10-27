@@ -402,9 +402,11 @@ header {
   overflow: hidden;
 }
 
-.portfolio__title {
+.portfolio__title,
+.portfolio__title::after {
   color: var(--clr-accent);
   opacity: .5;
+  text-decoration: none;
 }
 
 .portfolio__item:focus {
