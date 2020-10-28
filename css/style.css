@@ -473,8 +473,15 @@ footer a {
   margin: 0 auto;
 }
 
-.portfolio-item-individual p {
-  max-width: 600px;
+.portfolio-item-individual h2 {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-item-individual p,
+.portfolio-item-individual ol {
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
